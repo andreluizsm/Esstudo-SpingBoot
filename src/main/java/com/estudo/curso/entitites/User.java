@@ -30,8 +30,8 @@ public class User implements Serializable {
     }
 
     public User(String phone, Long id, String name, String email, String password) {
-        this.phone = phone;
         this.id = id;
+        this.phone = phone;
         this.name = name;
         this.email = email;
         this.password = password;
